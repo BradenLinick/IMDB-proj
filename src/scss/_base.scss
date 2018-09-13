@@ -4,3 +4,16 @@
   width: 8rem;
   height: 6rem;
 }
+
+#jumbo {
+  background-image: url('/img/clap.jpg');
+  background-size: cover;
+  background-position: 0 70%;
+  background-attachment: fixed;
+  height:13rem;
+}
+
+#overlay {
+  background-color: rgba(0, 0, 0, .5);
+  height: 13rem;
+}
