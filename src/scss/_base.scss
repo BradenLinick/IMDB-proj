@@ -22,6 +22,29 @@
   height: 12rem;
 }
 
+#jumbo-sec {
+  background-image: url('/img/clap.jpg');
+  background-size: cover;
+  background-position: 50% 80%;
+  background-attachment: fixed;
+  height:5rem;
+}
+
+#overlay-sec {
+  background-color: rgba(0, 0, 0, .5);
+  height: 5rem;
+}
+
 #center {
   margin: 0 auto;
+}
+
+#h1 a {
+  text-decoration: none;
+  color: white;
+}
+
+footer a {
+  color: #ffbb33;
+  text-decoration: none;
 }
