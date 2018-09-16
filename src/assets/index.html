@@ -8,43 +8,93 @@
   <title>Clapperboard</title>
 </head>
 <body>
-  <main role="main">
-      <nav id="nav" class="navbar navbar-expand-lg navbar-dark bg-dark p-2">
-          <a href="#"><img src="/img/clapperboardlogo.png" alt="Clapperboard Logo" id="logo" class="mx-2"></a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-item nav-link active px-2" href="#">Home <span class="sr-only">(current)</span></a>
-              <a class="nav-item nav-link" href="#">Features</a>
-              <a class="nav-item nav-link" href="#">Pricing</a>
-              <a class="nav-item nav-link disabled" href="#">Disabled</a>
-            </div>
-            <form class="form-inline pr-3 ml-auto">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-warning my-2 my-sm-0" type="submit">Search</button>
-            </form>
+    <nav id="nav" class="navbar navbar-expand-lg navbar-dark bg-dark p-2">
+        <a href="index.html"><img src="/img/clapperboardlogo.png" alt="Clapperboard Logo" id="logo" class="mx-2"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link active px-2" href="index.html">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="actor.html">Actors</a>
+            <a class="nav-item nav-link" href="movie.html">Movies</a>
           </div>
-        </nav>
+          <form class="form-inline pr-3 ml-auto">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-warning my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+      <main role="main">
+        
         <div id="jumbo">
           <div id="overlay">
           <h1 class="display-4 text-white text-center pt-5">Clapperboard</h1>
           </div>
         </div>
-        <div class="container-fluid bg-light">
-          <div class="col">
-              <h3 class="ml-4 py-3">Hottest Actor</h3>
-              <img class="promo" src="/img/donnie-yen.jpg" alt="Donnie Yen">
-          </div>
-          <div class="col">
-            <div class="row">
-              <h3 class="ml-4 py-3">Hottest Actor</h3>
-              <img src="" alt="">
+      
+        <div class="container-fluid bg-light p-5">
+          <div class="row">
+            <div class="col-8">
+                <h3 class="py-3">Hottest Actors</h3>
+
+                <div class="card-deck flex-wrap ghc-coffee-list">
+                    <div class="card bg-light border-light mb-4">
+                      <h5 class="text-center">Donnie Yen</h5>
+                      <img width="100%" class="card-img-top" src="/img/donnie-yen.jpg" alt="Donnie Yen">
+                      <div class="card-body">
+                        <p class="font-italic">redcurrant / honeysuckle / juicy</p>
+                        <p>Fruity redcurrant and sweet honeysuckle flavours. </p>
+                      </div>
+                    </div>
+                    <div class="card bg-light border-light mb-4">
+                      <h5 class="text-center">Felicity Jones</h5>
+                      <img width="100%" class="card-img-top" src="/img/felicity-jones.jpg" alt="Felicity Jones">
+                      <div class="card-body">
+                        <p class="font-italic">redcurrant / honeysuckle / juicy</p>
+                        <p>Fruity redcurrant and sweet honeysuckle flavours. </p>
+                      </div>
+                    </div>
+                    <div class="card bg-light border-light mb-4">
+                      <h5 class="text-center">Diego Luna</h5>
+                      <img width="100%" class="card-img-top" src="/img/diego-luna.jpg" alt="Diego Luna">
+                      <div class="card-body">
+                        <p class="font-italic">redcurrant / honeysuckle / juicy</p>
+                        <p>Fruity redcurrant and sweet honeysuckle flavours. </p>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="col bg-secondary">
+                <h3 class="ml-4 py-3">Hottest Movies</h3>
+                
             </div>
           </div>
         </div>
   </main>
+
+  <footer class="ghc-footer bg-dark py-5">
+			<div class="container">
+				<div class="row mb-3">
+					<div class="nav justify-content-center w-100">
+						<a class="nav-item nav-link ml-lg-3" href="/index.html">
+							Home
+						</a>
+						<a class="nav-item nav-link ml-lg-3" href="/actor.html">
+							Actors
+						</a>
+						<a class="nav-item nav-link ml-lg-3" href="/movie.html">
+							Movies
+						</a>
+					</div>
+				</div>
+				
+				<div class="row text-white text-center">
+					<h2 class="col-12 text-uppercase h5 font-weight-bold">Clapperboard</h2>
+					<p class="col-12">Follow us on <a href="#">Twitter</a> and <a href="#">Instagram</a></p>
+				</div>
+			</div>
+		</footer>
   
   <script 
     src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
